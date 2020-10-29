@@ -5,8 +5,7 @@ Dim TableNo As Integer 'table number in Word
 Dim iRow As Long 'row index in Excel
 Dim iCol As Integer 'column index in Excel
 
-wdFileName = Application.GetOpenFilename("Word files (*.doc),*.doc", , _
-"Browse for file containing table to be imported")
+wdFileName = "C:\Users\aedav\Desktop\test.docx"
 
 If wdFileName = False Then Exit Sub '(user cancelled import file browser)
 
